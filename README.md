@@ -12,7 +12,7 @@ Clone the repo and install dependencies
 
 ```bash
 # Clone the repo
-git clone https://github.com/ChangoMan/frames.git
+git clonehttps://github.com/fels21/frames_test.git
 
 # Enter the new directory
 cd frames
