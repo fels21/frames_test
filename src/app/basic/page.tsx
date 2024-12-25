@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Basic Frame',
+  metadataBase: new URL('https://ftst-sigma.vercel.app/'),
   description: 'A Farcaster Frame Demo',
   openGraph: {
     title: 'Basic Frame',
