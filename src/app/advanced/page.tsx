@@ -8,7 +8,7 @@ const frameMetadata = getFrameMetadata({
     },
   ],
   image: {
-    src: `${process.env.NEXT_PUBLIC_SITE_URL}/site-preview.jpg`,
+    src: `${process.env.NEXT_PUBLIC_SITE_URL}/site-prev.jpg`,
   },
   input: {
     text: 'Your Email',
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Advanced Frame',
     description: 'Another, more advanced frame example',
-    images: [`${process.env.NEXT_PUBLIC_SITE_URL}/site-preview.jpg`],
+    images: [`${process.env.NEXT_PUBLIC_SITE_URL}/site-prev.jpg`],
   },
   other: {
     ...frameMetadata,
