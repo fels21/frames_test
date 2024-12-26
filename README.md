@@ -1,8 +1,6 @@
 # Farcaster Frames - Next.js Examples
 
-## 👀 Watch the [YouTube tutorial](https://youtu.be/g_pkATT8pYU?si=8KwGSzJ_nxWHx-k3)
-
-### 🖥️ [Live Demo](https://frames-gilt.vercel.app/basic)
+### 🖥️ [Live Demo](https://frames-test-lilac.vercel.app/)
 
 Paste the live demo url into https://warpcast.com/~/developers/frames to validate the frame.
 
@@ -12,7 +10,7 @@ Clone the repo and install dependencies
 
 ```bash
 # Clone the repo
-git clonehttps://github.com/fels21/frames_test.git
+git clone https://github.com/fels21/frames_test.git
 
 # Enter the new directory
 cd frames
@@ -54,6 +52,10 @@ NEXT_PUBLIC_SITE_URL=https://example.com
 https://vercel.com/docs/projects/environment-variables
 
 ### Resources
+
+Original tutorial by Hunter Chang
+Github [Repo](https://github.com/ChangoMan/frames)
+
 
 Basic Frame example is heavily inspired by [https://github.com/Zizzamia/a-frame-in-100-lines](https://github.com/Zizzamia/a-frame-in-100-lines)
 
