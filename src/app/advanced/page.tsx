@@ -31,8 +31,8 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-<div>
-      <h1>{metadata.openGraph.title}</h1>
+    <div>
+      <h1>Advanced Frame 1</h1>
       <p>{metadata.description}</p>
     </div>
   )

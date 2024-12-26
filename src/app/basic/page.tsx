@@ -20,9 +20,9 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div>
-      <h1>{metadata.openGraph.title}</h1>
+      <h1>Basic rame</h1>
       <p>{metadata.description}</p>
-      <img src={metadata.openGraph.images[0]} alt="Site Preview" />
+      <img src={`${process.env.NEXT_PUBLIC_SITE_URL}/site-prev.jpg`} alt="Site Preview" />
     </div>
   )
 }
